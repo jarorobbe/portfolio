@@ -17,8 +17,10 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@tailwindcss/vite": "^4.3.5",
     "oxfmt": "^0.78.0",
     "oxlint": "^1.93.0",
+    "tailwindcss": "^4.3.5",
     "typescript": "^6.0.3"
   },
   "engines": {

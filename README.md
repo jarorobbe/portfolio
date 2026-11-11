@@ -2,6 +2,8 @@
 
 Astro portfolio for Jaro Robberechts, built as a static site for Vercel.
 
+Tailwind CSS 4 is available through the Vite plugin and imported from `src/styles/global.css`.
+
 ## Develop
 
 Requires Node.js 22.23.4 or newer.
