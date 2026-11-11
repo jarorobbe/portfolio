@@ -18,9 +18,13 @@ npm run dev
 ```sh
 npm run check
 npm run build
+npm run test:e2e
 ```
 
 `npm run build` also checks types. Astro writes the static site to `dist/`.
+The browser test uses Playwright with a local Lightpanda CDP server. Install
+Lightpanda and make sure `lightpanda` is on your `PATH`; the test command starts
+both Lightpanda and Astro automatically. No Chromium download is needed.
 
 ## Deploy
 

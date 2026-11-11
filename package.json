@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "build": "astro check && astro build",
     "check": "astro check",
+    "test:e2e": "playwright test",
     "preview": "astro preview",
     "lint": "oxlint",
     "format": "oxfmt",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
+    "@playwright/test": "^1.65.0",
     "@tailwindcss/vite": "^4.3.5",
     "oxfmt": "^0.78.0",
     "oxlint": "^1.93.0",
